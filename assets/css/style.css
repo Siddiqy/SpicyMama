@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Righteous&family=Roboto+Slab:wght@300;400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-body {
+    background-image: linear-gradient(#F2C94C, #F2994A);
+    padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+}
+
+p, a, span {
+    font-family: 'Roboto Slab', serif;
+}
+
+.row {
+    padding: 10px;
+}
+
+.fuchka-img-1 {
+    height: 200px;
+    background-image: url("../images/bismilla-fuchka.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.fuchka-img-2 {
+    height: 200px;
+    background-image: url("../images/cheese-fuchka.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.fuchka-img-3 {
+    height: 200px;
+    width: 100%;
+    background-image: url("../images/chicken-Fuchka.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.fuchka-img-4 {
+    height: 200px;
+    background-image: url("../images/doi-fuchka.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.fuchka-img-5 {
+    height: 200px;
+    background-image: url("../images/masala-fuchka.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.chotpoti-img-1 {
+    height: 200px;
+    background-image: url("../images/chicken-chotpoti.jfif");
+    background-size: cover;
+    background-position: center center;
+}
+
+.chotpoti-img-2 {
+    height: 200px;
+    background-image: url("../images/egg-chotpoti.jfif");
+    background-size: cover;
+    background-position: center center;
+}
+
+.chotpoti-img-3 {
+    height: 200px;
+    background-image: url("../images/special-chotpoti.JPG");
+    background-size: cover;
+    background-position: center center;
+}
+
+.chotpoti-img-4 {
+    height: 200px;
+    background-image: url("../images/vegitable-chotpoti.jfif");
+    background-size: cover;
+    background-position: center center;
+}
+
+.chotpoti-img-5 {
+    height: 200px;
+    background-image: url("../images/Jhal-chotpoti.jfif");
+    background-size: cover;
+    background-position: center center;
+}
+
+#header {
+    z-index: 3;
+    text-align: center; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition:  0.3s;
+}
+
+.star-rating {
+    line-height:32px;
+    font-size:1.25em;
+  }
+  
+.star-rating .fa-star{
+    color: rgb(251, 255, 0);
+}
+
+.fa-search {
+    color: #fff;
+}
+
+.nav-item {
+    padding: 0px 8px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.hero-img-1 {
+    position: relative;
+    background-image: url("../images/hero-image-chotpoti.jpeg");
+    padding: 200px 0px;
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+}
+
+.hero-img-1:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #1a1919;
+    opacity: 0.66;
+    z-index: -1;
+}
+
+.hero-img-2 {
+    position: relative;
+    background-image: url("../images/hero-Image-fuchka.jpeg");
+    padding: 200px 0px;
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+}
+
+.hero-img-2:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #1a1919;
+    opacity: 0.66;
+    z-index: -1;
+}
+
+.hero-img-1 h1, .hero-img-2 h1 {
+    color: #fff;
+    font-size: 3em;
+}
+
+.hero-img-1 h6, .hero-img-2 h6 {
+    color: #fff;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.products-carousel, .footer-items {
+    padding-top: 80px;
+}
+
+.products-feature {
+    padding: 100px 0px;
+}
+
+.products-carousel h4, products-feature h4 {
+    padding-bottom: 20px;
+}
+
+footer {
+    color: #fff;
+    background-color: #1d1d1d;
+}
+
+.meta-info, .footer-link, .social-link, .address {
+    padding: 20px;
+}
+
+.footer-link a {
+    display: list-item;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.footer-link a:hover {
+    color: #F2994A;
+}
+
+.social-logo {
+    margin: 3px;
+    font-size: 15px;
+    padding: 7px 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.social-logo:hover {
+    background-color: #F2994A;
+    border: 1px solid #F2994A;
+}
+
+.fa-map-marker-alt, .fa-envelope, .fa-phone-alt {
+    color: #F2994A;
+} 
+
+.copyright-text {
+    font-size: 12px;
+    font-weight: 400;
+}
