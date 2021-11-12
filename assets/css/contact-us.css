@@ -1,0 +1,51 @@
+
+.address-item h3 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.address-item a {
+    text-decoration: none;
+    color: #0CBBBF;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.address-item address {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.map-address {
+    margin: 0 auto;
+}
+
+.form-section h2 {
+    margin-left: 30px;
+}
+
+.contact-form {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.form-control.input-field {
+    margin: 8px 0px;
+    padding: 14px 0px;
+    padding-left: 20px;
+}
+
+.btn-send {
+    margin-top: 8px;
+    padding: 14px 40px;
+    border-style: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Zilla Slab', serif;
+    background-color: #0CBBC0;
+}

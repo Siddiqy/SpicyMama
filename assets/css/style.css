@@ -24,11 +24,14 @@ p, a, span {
     padding: 10px;
 }
 
+/*--------------------All Images CSS---------------------------*/
+
 .fuchka-img-1 {
     height: 200px;
     background-image: url("../images/bismilla-fuchka.jpg");
     background-size: cover;
     background-position: center center;
+    border-radius: 5px;
 }
 
 .fuchka-img-2 {
@@ -36,6 +39,7 @@ p, a, span {
     background-image: url("../images/cheese-fuchka.jpg");
     background-size: cover;
     background-position: center center;
+    border-radius: 5px;
 }
 
 .fuchka-img-3 {
@@ -44,6 +48,7 @@ p, a, span {
     background-image: url("../images/chicken-Fuchka.jpg");
     background-size: cover;
     background-position: center center;
+    border-radius: 5px;
 }
 
 .fuchka-img-4 {
@@ -51,6 +56,7 @@ p, a, span {
     background-image: url("../images/doi-fuchka.jpg");
     background-size: cover;
     background-position: center center;
+    border-radius: 5px;
 }
 
 .fuchka-img-5 {
@@ -58,6 +64,7 @@ p, a, span {
     background-image: url("../images/masala-fuchka.jpg");
     background-size: cover;
     background-position: center center;
+    border-radius: 5px;
 }
 
 .chotpoti-img-1 {
@@ -65,6 +72,7 @@ p, a, span {
     background-image: url("../images/chicken-chotpoti.jfif");
     background-size: cover;
     background-position: center center;
+    border-radius: 5px;
 }
 
 .chotpoti-img-2 {
@@ -72,6 +80,7 @@ p, a, span {
     background-image: url("../images/egg-chotpoti.jfif");
     background-size: cover;
     background-position: center center;
+    border-radius: 5px;
 }
 
 .chotpoti-img-3 {
@@ -79,6 +88,7 @@ p, a, span {
     background-image: url("../images/special-chotpoti.JPG");
     background-size: cover;
     background-position: center center;
+    border-radius: 5px;
 }
 
 .chotpoti-img-4 {
@@ -86,6 +96,7 @@ p, a, span {
     background-image: url("../images/vegitable-chotpoti.jfif");
     background-size: cover;
     background-position: center center;
+    border-radius: 5px;
 }
 
 .chotpoti-img-5 {
@@ -93,42 +104,112 @@ p, a, span {
     background-image: url("../images/Jhal-chotpoti.jfif");
     background-size: cover;
     background-position: center center;
+    border-radius: 5px;
 }
 
+.drinks-img-1 {
+    height: 200px;
+    background-image: url("../images/borhany.jfif");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 5px;
+}
+
+.drinks-img-2 {
+    height: 200px;
+    background-image: url("../images/7up.jpg");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 5px;
+}
+
+.drinks-img-3 {
+    height: 200px;
+    background-image: url("../images/matdha.jfif");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 5px;
+}
+
+.drinks-img-4 {
+    height: 200px;
+    background-image: url("../images/pran-up.jfif");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 5px;
+}
+
+.drinks-img-5 {
+    height: 200px;
+    background-image: url("../images/ghoal.jfif");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 5px;
+}
+
+.drinks-img-6 {
+    height: 200px;
+    background-image: url("../images/sprite.jpg");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 5px;
+}
+
+.drinks-img-7 {
+    height: 200px;
+    background-image: url("../images/lacchi.jfif");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 5px;
+}
+
+.drinks-img-8 {
+    height: 200px;
+    background-image: url("../images/coca-cola.jfif");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 5px;
+}
+
+/*------------------------Header Navigation Menu CSS--------------------------*/
+
 #header {
-    z-index: 3;
+    z-index: 2;
     text-align: center; 
     position: fixed;
     top: 0;
     width: 100%;
-    transition:  0.3s;
+    transition: 0.3s;
+    background-color: #F2994A;
 }
 
-.star-rating {
-    line-height:32px;
-    font-size:1.25em;
-  }
-  
-.star-rating .fa-star{
-    color: rgb(251, 255, 0);
-}
-
-.fa-search {
+.navbar-brand {
     color: #fff;
 }
 
 .nav-item {
     padding: 0px 8px;
     font-family: 'Roboto Slab', serif;
+    color: #fff;
 }
 
-.nav-item a {
+.nav-link {
     text-decoration: none;
     font-family: 'Roboto Slab', serif;
     font-size: 14px;
     font-weight: 400;
     color: #fff;
 }
+
+.nav-link:hover {
+    color: #5a548f;
+}
+
+.fa-shopping-basket {
+    color: #5a548f;
+}
+
+/*-------------------------------Hero Section CSS-------------------------------*/
 
 .hero-img-1 {
     position: relative;
@@ -183,34 +264,94 @@ p, a, span {
     padding-top: 10px;
 }
 
-.products-carousel, .footer-items {
+/*----------------------------Main Body CSS--------------------------------*/
+
+.food-menu, .drinks-menu {
+    height: 550px;
     padding-top: 80px;
+    overflow: hidden;
 }
 
 .products-feature {
     padding: 100px 0px;
 }
 
-.products-carousel h4, products-feature h4 {
-    padding-bottom: 20px;
+.products-carousel h3, products-feature h3 {
+    padding-bottom: 30px;
 }
 
+.item:hover {
+    background-color: #F2C94C;
+}
+
+.item-des {
+    padding: 20px 0px;
+}
+
+.star-rating {
+    line-height:32px;
+    font-size:1.25em;
+  }
+  
+.fa-star {
+    color: rgb(251, 255, 0);
+    font-size: 14px;
+}
+
+.star-rating strong {
+    font-size: 14px;
+}
+
+.add-basket-btn {
+    width: 100%;
+    padding: 8px 0px;
+    border-style: none;
+    background-color: #5a548f;
+    color: #fff;
+}
+
+.order-now {
+    padding-top: 120px;
+    padding-bottom: 0px;
+}
+
+.order-btn {
+    padding: 12px 100px;
+    border-style: none;
+    border-radius: 25px;
+    background-color: #5a548f;
+    color: #fff;
+    font-weight: 500;
+    box-shadow: 0px 0px 3px rgb(251, 255, 0);
+}
+
+/*-------------------------------------Footer CSS------------------------------*/
 footer {
     color: #fff;
     background-color: #1d1d1d;
 }
 
-.meta-info, .footer-link, .social-link, .address {
-    padding: 20px;
+.footer-items {
+    padding-top: 70px;
+}
+
+.meta-info, .footer-link, .social-link, .address-text {
+    padding: 10px;
+}
+
+.meta-info p {
+    padding-bottom: 5px;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 .footer-link a {
     display: list-item;
     list-style: none;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 10px;
     padding-bottom: 5px;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
     color: #fff;
 }
@@ -219,8 +360,12 @@ footer {
     color: #F2994A;
 }
 
+.social-link h6 {
+    padding-bottom: 15px;
+}
+
 .social-logo {
-    margin: 3px;
+    margin-right: 5px;
     font-size: 15px;
     padding: 7px 10px;
     border: 1px solid #fff;
@@ -234,9 +379,19 @@ footer {
 
 .fa-map-marker-alt, .fa-envelope, .fa-phone-alt {
     color: #F2994A;
-} 
+}
+
+.address-text h6 {
+    padding-bottom: 10px;
+}
+
+.address-text address, p {
+    font-size: 14px;
+    font-weight: 600;
+}
 
 .copyright-text {
+    padding: 10px 0px;
     font-size: 12px;
     font-weight: 400;
 }
