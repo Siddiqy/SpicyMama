@@ -8,7 +8,6 @@
 
 .main-body {
     background-image: linear-gradient(#F2C94C, #F2994A);
-    padding: 0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -272,11 +271,15 @@ p, a, span {
     overflow: hidden;
 }
 
-.products-feature {
-    padding: 100px 0px;
+.section-padding {
+    padding: 80px 0px;
 }
 
-.products-carousel h3, products-feature h3 {
+.top-features {
+    padding: 150px 0px 80px 0px;
+}
+
+.products-carousel h2 {
     padding-bottom: 30px;
 }
 
@@ -288,10 +291,22 @@ p, a, span {
     padding: 20px 0px;
 }
 
+.features-des {
+    padding: 30px 20px;
+}
+
+.features-des h6 {
+    padding-top: 20px;
+}
+
+.features-des p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
 .star-rating {
-    line-height:32px;
-    font-size:1.25em;
-  }
+    line-height: 32px;
+}
   
 .fa-star {
     color: rgb(251, 255, 0);
@@ -385,9 +400,9 @@ footer {
     padding-bottom: 10px;
 }
 
-.address-text address, p {
+.address-text p, address {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .copyright-text {
