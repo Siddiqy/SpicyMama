@@ -1,0 +1,67 @@
+
+.fuchka-img-1, .fuchka-img-2, .fuchka-img-3, .fuchka-img-4, .fuchka-img-5 {
+    height: 100px;
+}
+
+.chotpoti-img-1, .chotpoti-img-2, .chotpoti-img-3, .chotpoti-img-4, .chotpoti-img-5 {
+    height: 100px;
+}
+
+.drinks-img-1, .drinks-img-2, .drinks-img-3, .drinks-img-4, .drinks-img-5, .drinks-img-6, 
+    .drinks-img-7, .drinks-img-8 {
+    height: 100px;
+}
+
+.search-location {
+    margin-top: 60px;
+}
+
+.search-location a {
+    text-decoration: none;
+    color: #212529;
+}
+
+.search-input {
+    padding: 8px 100px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #F0F0F0;
+}
+
+.confirm-btn {
+    margin-left: 5px;
+    margin-bottom: 20px;
+    padding: 8px 30px;
+    border-style: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #2EB068;
+}
+
+.all-items h2 {
+    padding-bottom: 40px;
+}
+
+.vertical-line {
+    border-left: 4px solid rgb(150, 150, 150);
+    height: 850px;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.order-item {
+    width: 165px;
+}
+
+.order-item-des {
+    padding: 6px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #f5f5f579;
+}
+
+.order-item-des h6 {
+    font-size: 14px;
+}

@@ -13,14 +13,19 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Righteous', cursive;
     font-weight: 400;
+    color: #050347;
 }
 
-p, a, span {
+p, a, span, button {
     font-family: 'Roboto Slab', serif;
 }
 
 .row {
     padding: 10px;
+}
+
+.section-padding {
+    padding: 80px 0px;
 }
 
 /*--------------------All Images CSS---------------------------*/
@@ -66,6 +71,8 @@ p, a, span {
     border-radius: 5px;
 }
 
+/*-------------------------------Chotpoti images----------------------------*/
+
 .chotpoti-img-1 {
     height: 200px;
     background-image: url("../images/chicken-chotpoti.jfif");
@@ -105,6 +112,8 @@ p, a, span {
     background-position: center center;
     border-radius: 5px;
 }
+
+/*-------------------------------Drinks images----------------------------*/
 
 .drinks-img-1 {
     height: 200px;
@@ -265,14 +274,17 @@ p, a, span {
 
 /*----------------------------Main Body CSS--------------------------------*/
 
+.spicy-info {
+    font-size: 10px;
+    font-weight: 400;
+    padding: 5px 10px;
+    background-color: rgb(199, 20, 20);
+}
+
 .food-menu, .drinks-menu {
     height: 550px;
     padding-top: 80px;
     overflow: hidden;
-}
-
-.section-padding {
-    padding: 80px 0px;
 }
 
 .top-features {
@@ -283,12 +295,17 @@ p, a, span {
     padding-bottom: 30px;
 }
 
+.item {
+    margin: 20px 0px;
+}
+
 .item:hover {
     background-color: #F2C94C;
 }
 
 .item-des {
     padding: 20px 0px;
+    line-height: 32px;
 }
 
 .features-des {
@@ -302,10 +319,6 @@ p, a, span {
 .features-des p {
     font-size: 12px;
     font-weight: 400;
-}
-
-.star-rating {
-    line-height: 32px;
 }
   
 .fa-star {
@@ -334,10 +347,10 @@ p, a, span {
     padding: 12px 100px;
     border-style: none;
     border-radius: 25px;
-    background-color: #5a548f;
-    color: #fff;
     font-weight: 500;
-    box-shadow: 0px 0px 3px rgb(251, 255, 0);
+    color: #fff;
+    background-color: #56565c;
+    box-shadow: 0px 0px 3px rgb(247, 248, 203);
 }
 
 /*-------------------------------------Footer CSS------------------------------*/
@@ -350,8 +363,12 @@ footer {
     padding-top: 70px;
 }
 
-.meta-info, .footer-link, .social-link, .address-text {
-    padding: 10px;
+.meta-info p {
+    padding-right: 15px;
+}
+
+.meta-info h4, .social-link h6, .address-text h6 {
+    color: #fff;
 }
 
 .meta-info p {
@@ -366,7 +383,7 @@ footer {
     text-decoration: none;
     margin-left: 10px;
     padding-bottom: 5px;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     color: #fff;
 }

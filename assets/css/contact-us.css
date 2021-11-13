@@ -1,51 +1,26 @@
 
-.address-item h3 {
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-
-.address-item a {
-    text-decoration: none;
-    color: #0CBBBF;
-    font-size: 1em;
-    font-weight: 400;
-}
-
-.address-item address {
-    padding-top: 10px;
+.message-form, .location-map {
     padding-bottom: 30px;
-    text-decoration: none;
-    color: #fff;
-    font-size: 1em;
-    font-weight: 400;
 }
 
-.map-address {
-    margin: 0 auto;
+.message-form h2, .location-map h2 {
+    margin-bottom: 30px;
 }
 
-.form-section h2 {
-    margin-left: 30px;
-}
-
-.contact-form {
-    margin-top: 30px;
-    margin-left: 30px;
-}
-
-.form-control.input-field {
-    margin: 8px 0px;
-    padding: 14px 0px;
+.input-field {
+    margin: 6px 0px;
+    padding: 12px 0px;
     padding-left: 20px;
+    background-color: rgb(240, 240, 240);
 }
 
 .btn-send {
-    margin-top: 8px;
-    padding: 14px 40px;
+    margin-top: 15px;
+    padding: 12px 100px;
     border-style: none;
+    border-radius: 25px;
+    background-color: #2EB068;
     color: #fff;
-    font-size: 1rem;
-    font-weight: 600;
-    font-family: 'Zilla Slab', serif;
-    background-color: #0CBBC0;
+    font-weight: 500;
+    box-shadow: 0px 0px 3px #2EB068;
 }
