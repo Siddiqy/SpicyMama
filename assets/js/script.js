@@ -1,5 +1,11 @@
 window.onscroll = function() {scrollFunction()};
 
+$(document).ready(function() {
+  $('.add-basket-btn').hide();
+  $('.basket-count').hide();
+  $('.selected-item').hide();
+});
+
 function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("header").style.padding = "0px"
@@ -39,8 +45,28 @@ $('.owl-carousel').owlCarousel({
 
 $('.item').hover(function() {
   $(this).find('.add-basket-btn').show();
-},
-function () {
+  },
+
+  function () {
    $('.add-basket-btn').hide();
-}
-);
+});
+
+$('.add-basket-btn').click(function() {
+  $('.basket-count').hide();
+  },
+
+  function () {
+  $('.basket-count').show();
+});
+
+$('.order-item-des').click(function() {
+  if($(this).find('.selected-item').show()) {
+    $(this).find('.selected-item').hide()
+  }
+  else
+  $(this).find('.selected-item').show();
+  },
+
+  function () {
+    $(this).find('.selected-item').show();
+});

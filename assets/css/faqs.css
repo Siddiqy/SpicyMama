@@ -15,10 +15,10 @@
     width: 100%;
     padding: 16px 0px;
     padding-left: 30px;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     color: #020202;
-    background-color: #F2994A;
+    background-color: #d8d8d880;
 }
 
 .accordion-btn::after {
@@ -28,7 +28,7 @@
     border: 1px solid #696969;
     border-radius: 50%;
     float: right;
-    padding: 1px 6px;
+    padding: 1px 7px;
     margin-right: 15px;
 }
 

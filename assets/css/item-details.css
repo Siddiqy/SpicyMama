@@ -7,6 +7,10 @@
     height: 500px;
 }
 
+.drinks-img-1 {
+    height: 500px;
+}
+
 .price {
     font-size: 20px;
     padding: 8px 18px;
@@ -83,7 +87,7 @@
 }
 
 .feedback-details {
-    margin: 10px 0px;
+    margin: 20px 0px;
 }
 
 .feedback-content {

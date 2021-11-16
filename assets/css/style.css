@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #050347;
 }
 
-p, a, span, button {
+p, a, span, button, form-label {
     font-family: 'Roboto Slab', serif;
 }
 
@@ -336,6 +336,11 @@ p, a, span, button {
     border-style: none;
     background-color: #5a548f;
     color: #fff;
+}
+
+.basket-count {
+    font-size: 8px;
+    padding: 4px 8px;
 }
 
 .order-now {

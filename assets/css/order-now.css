@@ -13,7 +13,7 @@
 }
 
 .search-location {
-    margin-top: 60px;
+    margin-top: 70px;
 }
 
 .search-location a {
@@ -25,7 +25,7 @@
     padding: 8px 100px;
     border-style: none;
     border-radius: 5px;
-    background-color: #F0F0F0;
+    background-color: rgb(240, 240, 240);
 }
 
 .confirm-btn {
@@ -43,7 +43,8 @@
 }
 
 .vertical-line {
-    border-left: 4px solid rgb(150, 150, 150);
+    /*border-left: 4px solid rgb(150, 150, 150);*/
+    border-left: 4px solid #f2984a79;
     height: 850px;
     left: 50%;
     margin-left: -3px;
@@ -64,4 +65,61 @@
 
 .order-item-des h6 {
     font-size: 14px;
+}
+
+.order-summary h2, .delivery-details h2 {
+    padding: 40px 0px;
+}
+
+.fa-check-circle {
+    padding-top: 15px;
+    padding-right: 15px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #2EB068;
+}
+
+.price-table, .delivery-type {
+    background-color: #f5f5f579;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+table {
+    margin: 20px;
+    line-height: 30px;
+}
+
+th {
+    font-size: 24px;
+    font-family: 'Righteous', cursive;
+}
+
+td {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+}
+
+.delivery-address {
+    padding-top: 60px;
+    margin: 0 auto;
+}
+
+.form-control {
+    width: 95%;
+    padding: 10px 0px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(240, 240, 240);
+}
+
+.checkout-btn {
+    width: 40%;
+    margin: 30px 0px;
+    padding: 14px 0px;
+    border-style: none;
+    border-radius: 25px;
+    background-color: #5a548f;
+    color: #fff;
 }
